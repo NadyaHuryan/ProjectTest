@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Calistoga;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.weather {
+    display: flex;
+
+}
+.weather__item {
+    width: 375px;
+    height: 400px;
+    color: white;
+    padding: 26px 21px;
+    margin-right: 40px;
+}
+.weather__item:last-child {
+    margin-right: 0;
+}
+.weather-morning {
+    background: linear-gradient(18.04deg, #F1B14B -0.75%, #BC2C35 100%);
+}
+.weather-day {
+    background: linear-gradient(18.04deg, #4BB5F1 -0.75%, #2F2CBC 100%);
+}
+.weather-night {
+    background: linear-gradient(18.04deg, #223076 -0.75%, #06050E 100%);
+}
+.weather__item-city,
+.weather__item-cloud,
+.weather__item-date,
+.weather__item-temp {
+    text-align: center;    
+    margin-bottom: 12px;
+}
+
+
+.weather__item-city {
+    font-size: 36px;
+    line-height: 47px;
+}
+.weather__item-cloud {
+    font-size: 24px;
+    line-height: 28px;
+}
+.weather__item-pic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.weather__item-picSun {
+    background-image: url("../image//sun1.svg");
+}
+.weather__item-picMoon {
+    background-image: url("../image/crescent-moon1.svg");
+}
+.weather__item-temp {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+}
+.weather__item-date {
+    font-size: 22px;
+    line-height: 26px;
+}

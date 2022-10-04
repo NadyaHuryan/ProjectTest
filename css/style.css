@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*как рассчитывается ширина*/
+}
+/* теги - 1
+классы - 10
+идентификаторы - 100
+атрибут style, !important - 1000 */
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+    color: #333333;
+    padding: 0 15px;
+}
+p {
+    margin-bottom: 15px;
+}
+ul li {
+    list-style: none;
+}
+ol li {
+    list-style-type: lower-alpha;
+}
+a {
+    text-decoration: none;
+}
+.warning {
+    color: rgba(172, 46, 46, 0.5);
+    background-color: violet;
+    /* opacity: 0.5; */
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+p { /*все теги p станут красными*/
+    color: blue;
+}
+p {
+    color: green;
+}
+b {color: yellow;}
+p b {color: blueviolet}  /*вес селектор 2*/
+/* селектор селектор */
+
+
+
+.warning2 {
+    text-decoration: underline;
+}
+p.warning { /*вес селектора 11*/
+    font-weight: bold;
+}
+#idName {
+    color: green;
+}
+
+
+/* selector {    
+    свойство1: значение1;    
+    свойство2: значение2;  
+} */
+
+.block {
+    border: 1px solid black;
+}
+.block__item {
+    background-color: cadetblue;
+    padding: 20px;
+    padding: 5px 6px 7px 8px;
+    padding: 10px 20px; /**/
+    padding: 10px 15px 20px;
+    border: 1px solid black;
+}

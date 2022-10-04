@@ -1,0 +1,29 @@
+@font-face{
+
+    font-family: 'MyWebFont';
+    
+    src: url('../fonts/WebFont.eot'); /*Поддерживает только Internet Explorer*/
+    
+    src: url('../fonts/WebFont.eot?iefix') format('eot'), /*IE6 - IE8 fix*/
+    
+    url('../fonts/WebFont.woff') format('woff'), /*Поддерживают все браузеры, кроме: Internet Explorer 8 (и ниже), Opera Mini 5.0-8.0, Android Browser 4.1-4.3*/
+    
+    url('../fonts/WebFont.ttf') format('truetype'), /*Поддерживают все браузеры, кроме: Internet Explorer 8 (и ниже), Opera Mini 5.0-8.0*/
+    
+    url('../fonts/WebFont.svg#webfont') format('svg'); /*Chrome до версии 37 (включительно), Safari, iOS Safari, Android Browser*/
+    
+    font-weight: normal;    
+    font-style: normal;    
+    }
+
+@font-face{
+
+    font-family: 'MyWebFont';    
+    src: url('../fonts/WebFont-Italic.eot');    
+    src: url('../fonts/WebFont-Italic.eot?iefix') format('eot'),    
+    url('../fonts/WebFont-Italic.woff') format('woff'),    
+    url('../fonts/WebFont-Italic.ttf') format('truetype'),    
+    url('../fonts/WebFont-Italic.svg#webfont') format('svg');    
+    font-weight: normal;    
+    font-style: italic;    
+    }
